@@ -20,7 +20,7 @@ module.exports = function(app) {
 		// Best match
 		var matchName = '';
 		var matchImage = '';
-		var totalDifference = 10000;
+		var totalDifference = 0;
 
 		// Loop through friends list
 		for (var i = 0; i < friends.length; i++) {
